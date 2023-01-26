@@ -307,7 +307,7 @@ export interface getRecommendGenres2Type {
         id: number;
         name: string;
     }[];
-    tvGnres: {
+    tvGenres: {
         id: number;
         name: string;
     }[];
