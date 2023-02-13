@@ -7,10 +7,10 @@ export const EMBED_VIDSRC = "https://vidsrc.me/embed";
 export const EMBED_TO = "https://www.2embed.to/embed/tmdb";
 
 export const SUPPORTED_QUERY = {
-    genre: [],
-    sort_by: [],
-    minRuntime: [],
-    maxRuntime: [],
-    from: [],
-    to: [],
+  genre: [],
+  sort_by: [],
+  minRuntime: [],
+  maxRuntime: [],
+  from: [],
+  to: [],
 };
