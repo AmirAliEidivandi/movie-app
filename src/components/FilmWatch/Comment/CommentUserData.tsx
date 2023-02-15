@@ -1,6 +1,6 @@
 import { DocumentData, QuerySnapshot } from "firebase/firestore";
 import { FunctionComponent } from "react";
-import Skeleton from "../../common/Skeleton";
+import Skeleton from "../../Common/Skeleton";
 import CommentUserContent from "./CommentUserContent";
 
 interface CommentUserDataProps {

@@ -4,8 +4,8 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { getExploreMovie, getExploreTV } from "../../services/explore";
 import { ConfigType, ItemsPage } from "../../shared/types";
-import FilmItem from "../common/FilmItem";
-import Skeleton from "../common/Skeleton";
+import FilmItem from "../Common/FilmItem";
+import Skeleton from "../Common/Skeleton";
 
 interface ExploreMovieResultProps {
   pages?: ItemsPage[];

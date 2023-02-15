@@ -3,8 +3,8 @@ import { useQuery } from "@tanstack/react-query";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { getSearchResult } from "../../services/search";
 import { ItemsPage } from "../../shared/types";
-import FilmItem from "../common/FilmItem";
-import Skeleton from "../common/Skeleton";
+import FilmItem from "../Common/FilmItem";
+import Skeleton from "../Common/Skeleton";
 import Pagination from "./Pagination";
 
 interface SearchResultProps {

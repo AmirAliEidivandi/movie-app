@@ -16,14 +16,14 @@ import {
 } from "../../shared/types";
 import { embedMovie, embedTV } from "../../shared/utils";
 import { useAppSelector } from "../../store/hooks";
-import ReadMore from "../common/ReadMore";
-import RightbarFilms from "../common/RightbarFilms";
-import SearchBox from "../common/SearchBox";
-import Sidebar from "../common/Sidebar";
-import SidebarMini from "../common/SidebarMini";
-import Skeleton from "../common/Skeleton";
-import Title from "../common/Title";
-import Footer from "../footer/Footer";
+import ReadMore from "../Common/ReadMore";
+import RightbarFilms from "../Common/RightbarFilms";
+import SearchBox from "../Common/SearchBox";
+import Sidebar from "../Common/Sidebar";
+import SidebarMini from "../Common/SidebarMini";
+import Skeleton from "../Common/Skeleton";
+import Title from "../Common/Title";
+import Footer from "../Footer/Footer";
 import Comment from "./Comment/Comment";
 import SeasonSelection from "./SeasonSelection";
 

@@ -4,7 +4,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
 import { DetailSeason } from "../../shared/types";
 import { resizeImage } from "../../shared/utils";
-import Skeleton from "../common/Skeleton";
+import Skeleton from "../Common/Skeleton";
 
 interface SeasonSelectionProps {
   detailSeasons?: DetailSeason[];

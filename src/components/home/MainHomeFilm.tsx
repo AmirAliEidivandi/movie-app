@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { HomeFilms } from "../../shared/types";
-import Skeleton from "../common/Skeleton";
+import Skeleton from "../Common/Skeleton";
 import BannerSlider from "../Slider/BannerSlider";
 import SectionSlider from "../Slider/SectionSlider";
 

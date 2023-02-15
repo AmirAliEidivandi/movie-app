@@ -11,8 +11,8 @@ import { db } from "../../shared/firebase";
 import { Item } from "../../shared/types";
 import { useAppSelector } from "../../store/hooks";
 import BookmarkResult from "../Bookmark/BookmarkResult";
-import Sidebar from "../common/Sidebar";
-import Skeleton from "../common/Skeleton";
+import Sidebar from "../Common/Sidebar";
+import Skeleton from "../Common/Skeleton";
 
 interface FilmListViewForBookmarkAndHistoryProps {
   films: Item[];

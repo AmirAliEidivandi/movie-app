@@ -2,8 +2,8 @@ import { FC, useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Cast, DetailMovie, DetailTV, Reviews } from "../../shared/types";
 import { resizeImage } from "../../shared/utils";
-import Skeleton from "../common/Skeleton";
-import ReadMore from "../common/ReadMore";
+import Skeleton from "../Common/Skeleton";
+import ReadMore from "../Common/ReadMore";
 import ReviewTab from "./ReviewTab";
 
 interface FilmTabInfoProps {

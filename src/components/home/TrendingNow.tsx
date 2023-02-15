@@ -2,7 +2,7 @@ import { FC } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { getTrendingNow } from "../../services/home";
 import { Item } from "../../shared/types";
-import RightbarFilms from "../common/RightbarFilms";
+import RightbarFilms from "../Common/RightbarFilms";
 
 const TrendingNow: FC = () => {
   const { isLoading, data, isError, error } = useQuery<Item[], Error>(

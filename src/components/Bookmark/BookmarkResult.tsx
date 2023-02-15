@@ -2,7 +2,7 @@ import { FunctionComponent } from "react";
 import { HiCheck } from "react-icons/hi";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Item } from "../../shared/types";
-import FilmItem from "../common/FilmItem";
+import FilmItem from "../Common/FilmItem";
 
 interface BookmarkResultProps {
   films: Item[];

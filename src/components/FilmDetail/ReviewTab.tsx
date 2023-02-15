@@ -4,8 +4,8 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Reviews } from "../../shared/types";
 import { calculateTimePassed } from "../../shared/utils";
 import { SortReview } from "./SortReview";
-import StarRating from "../common/StarRating";
-import ReadMore from "../common/ReadMore";
+import StarRating from "../Common/StarRating";
+import ReadMore from "../Common/ReadMore";
 
 interface ReviewTabProps {
   reviews: Reviews[];

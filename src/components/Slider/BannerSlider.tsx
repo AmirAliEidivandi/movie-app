@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { Item } from "../../shared/types";
 import { resizeImage } from "../../shared/utils";
 import { useCurrentViewportView } from "../../hooks/useCurrentViewportView";
-import Skeleton from "../common/Skeleton";
+import Skeleton from "../Common/Skeleton";
 
 interface BannerSliderProps {
   films: Item[] | undefined;
